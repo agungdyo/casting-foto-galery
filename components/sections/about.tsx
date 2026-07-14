@@ -54,11 +54,12 @@ export function About() {
           >
             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://picsum.photos/seed/about-studio/800/1000"
+                src="/gallery/kolase-full-black.jpg"
                 alt="Our photography studio"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
+                priority
               />
               {/* Decorative overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
