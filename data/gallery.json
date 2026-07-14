@@ -1,0 +1,195 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "title": "Urban Portrait Series",
+      "slug": "urban-portrait-series",
+      "description": "A stunning collection of portraits captured in urban environments, showcasing the raw beauty of city life.",
+      "category": "Portrait",
+      "location": "New York, USA",
+      "year": "2024",
+      "thumbnail": "https://picsum.photos/seed/portrait1/800/1200",
+      "images": [
+        "https://picsum.photos/seed/portrait1a/1200/1600",
+        "https://picsum.photos/seed/portrait1b/1200/1600",
+        "https://picsum.photos/seed/portrait1c/1200/1600"
+      ],
+      "featured": true
+    },
+    {
+      "id": "2",
+      "title": "Haute Couture Fashion",
+      "slug": "haute-couture-fashion",
+      "description": "High fashion editorial showcasing the latest designer collections with dramatic lighting.",
+      "category": "Fashion",
+      "location": "Paris, France",
+      "year": "2024",
+      "thumbnail": "https://picsum.photos/seed/fashion1/800/1000",
+      "images": [
+        "https://picsum.photos/seed/fashion1a/1200/1800",
+        "https://picsum.photos/seed/fashion1b/1200/1800"
+      ],
+      "featured": true
+    },
+    {
+      "id": "3",
+      "title": "Tech Product Launch",
+      "slug": "tech-product-launch",
+      "description": "Commercial photography for a major technology product launch campaign.",
+      "category": "Commercial",
+      "location": "San Francisco, USA",
+      "year": "2024",
+      "thumbnail": "https://picsum.photos/seed/commercial1/800/800",
+      "images": [
+        "https://picsum.photos/seed/commercial1a/1200/1200",
+        "https://picsum.photos/seed/commercial1b/1200/1200"
+      ],
+      "featured": false
+    },
+    {
+      "id": "4",
+      "title": "Vogue Editorial",
+      "slug": "vogue-editorial",
+      "description": "Stunning editorial spread featured in international fashion magazine.",
+      "category": "Editorial",
+      "location": "Milan, Italy",
+      "year": "2024",
+      "thumbnail": "https://picsum.photos/seed/editorial1/800/1100",
+      "images": [
+        "https://picsum.photos/seed/editorial1a/1200/1650",
+        "https://picsum.photos/seed/editorial1b/1200/1650",
+        "https://picsum.photos/seed/editorial1c/1200/1650"
+      ],
+      "featured": true
+    },
+    {
+      "id": "5",
+      "title": "Elegant Wedding",
+      "slug": "elegant-wedding",
+      "description": "Beautiful wedding photography capturing intimate moments of a romantic celebration.",
+      "category": "Event",
+      "location": "Tuscany, Italy",
+      "year": "2024",
+      "thumbnail": "https://picsum.photos/seed/event1/800/900",
+      "images": [
+        "https://picsum.photos/seed/event1a/1200/1350",
+        "https://picsum.photos/seed/event1b/1200/1350"
+      ],
+      "featured": false
+    },
+    {
+      "id": "6",
+      "title": "Luxury Watch Campaign",
+      "slug": "luxury-watch-campaign",
+      "description": "Premium product photography for luxury timepiece brand campaign.",
+      "category": "Product",
+      "location": "Geneva, Switzerland",
+      "year": "2024",
+      "thumbnail": "https://picsum.photos/seed/product1/800/800",
+      "images": [
+        "https://picsum.photos/seed/product1a/1200/1200",
+        "https://picsum.photos/seed/product1b/1200/1200"
+      ],
+      "featured": true
+    },
+    {
+      "id": "7",
+      "title": "Natural Light Portraits",
+      "slug": "natural-light-portraits",
+      "description": "Intimate portraits using only natural light, highlighting authentic beauty.",
+      "category": "Portrait",
+      "location": "Los Angeles, USA",
+      "year": "2023",
+      "thumbnail": "https://picsum.photos/seed/portrait2/800/1200",
+      "images": [
+        "https://picsum.photos/seed/portrait2a/1200/1600",
+        "https://picsum.photos/seed/portrait2b/1200/1600"
+      ],
+      "featured": false
+    },
+    {
+      "id": "8",
+      "title": "Street Fashion",
+      "slug": "street-fashion",
+      "description": "Urban street style photography capturing contemporary fashion trends.",
+      "category": "Fashion",
+      "location": "Tokyo, Japan",
+      "year": "2024",
+      "thumbnail": "https://picsum.photos/seed/fashion2/800/1000",
+      "images": [
+        "https://picsum.photos/seed/fashion2a/1200/1500",
+        "https://picsum.photos/seed/fashion2b/1200/1500"
+      ],
+      "featured": false
+    },
+    {
+      "id": "9",
+      "title": "Automotive Excellence",
+      "slug": "automotive-excellence",
+      "description": "Premium automotive photography showcasing luxury vehicles in stunning locations.",
+      "category": "Commercial",
+      "location": "Monaco",
+      "year": "2023",
+      "thumbnail": "https://picsum.photos/seed/commercial2/800/600",
+      "images": [
+        "https://picsum.photos/seed/commercial2a/1200/900",
+        "https://picsum.photos/seed/commercial2b/1200/900"
+      ],
+      "featured": true
+    },
+    {
+      "id": "10",
+      "title": "Beauty Campaign",
+      "slug": "beauty-campaign",
+      "description": "Makeup and skincare product campaign with artistic direction.",
+      "category": "Editorial",
+      "location": "London, UK",
+      "year": "2024",
+      "thumbnail": "https://picsum.photos/seed/editorial2/800/1100",
+      "images": [
+        "https://picsum.photos/seed/editorial2a/1200/1650",
+        "https://picsum.photos/seed/editorial2b/1200/1650"
+      ],
+      "featured": false
+    },
+    {
+      "id": "11",
+      "title": "Corporate Gala",
+      "slug": "corporate-gala",
+      "description": "Elegant corporate event photography for annual industry awards ceremony.",
+      "category": "Event",
+      "location": "Dubai, UAE",
+      "year": "2024",
+      "thumbnail": "https://picsum.photos/seed/event2/800/900",
+      "images": [
+        "https://picsum.photos/seed/event2a/1200/1350",
+        "https://picsum.photos/seed/event2b/1200/1350"
+      ],
+      "featured": false
+    },
+    {
+      "id": "12",
+      "title": "Jewelry Collection",
+      "slug": "jewelry-collection",
+      "description": "Fine jewelry photography with macro details and elegant styling.",
+      "category": "Product",
+      "location": "Antwerp, Belgium",
+      "year": "2023",
+      "thumbnail": "https://picsum.photos/seed/product2/800/1000",
+      "images": [
+        "https://picsum.photos/seed/product2a/1200/1500",
+        "https://picsum.photos/seed/product2b/1200/1500"
+      ],
+      "featured": false
+    }
+  ],
+  "categories": [
+    { "id": "all", "name": "All", "slug": "all" },
+    { "id": "portrait", "name": "Portrait", "slug": "portrait" },
+    { "id": "fashion", "name": "Fashion", "slug": "fashion" },
+    { "id": "commercial", "name": "Commercial", "slug": "commercial" },
+    { "id": "editorial", "name": "Editorial", "slug": "editorial" },
+    { "id": "event", "name": "Event", "slug": "event" },
+    { "id": "product", "name": "Product", "slug": "product" }
+  ]
+}

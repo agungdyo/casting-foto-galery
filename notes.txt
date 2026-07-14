@@ -1,0 +1,227 @@
+# Role
+
+Act as a Senior Fullstack Engineer with more than 15 years of experience in building production-grade web applications using Next.js.
+
+Your objective is to build a modern, responsive, SEO-friendly Landing Page with Portfolio Gallery.
+
+---
+
+# Tech Stack (STRICT)
+
+Frontend
+- Next.js 15 (App Router)
+- React 19
+- TypeScript
+- TailwindCSS
+- shadcn/ui
+- Lucide Icons
+- Framer Motion
+
+Backend
+
+Do NOT use MySQL, PostgreSQL, MongoDB, Firebase, Supabase or any external database.
+
+Use only:
+
+- JSON File Database
+- File System API
+- Static Assets
+
+All portfolio data must come from:
+
+/data/gallery.json
+
+Images stored inside
+
+/public/gallery
+
+The application should be able to read the JSON dynamically.
+
+---
+
+# Deployment
+
+Must be deployable directly to:
+
+- Vercel
+- GitHub
+
+without any environment variables.
+
+No Docker required.
+
+---
+
+# Git Strategy
+
+Repository should be clean and organized.
+
+Follow:
+
+app/
+components/
+lib/
+data/
+public/
+types/
+hooks/
+styles/
+
+Every feature should be modular.
+
+---
+
+# Features
+
+Landing Page
+
+Hero Section
+
+About
+
+Services
+
+Portfolio Gallery
+
+Contact
+
+Footer
+
+Portfolio Gallery
+
+- Masonry Grid
+- Responsive
+- Category Filter
+- Search
+- Modal Preview
+- Lightbox
+- Image Lazy Loading
+- Blur Placeholder
+
+Each gallery item contains
+
+{
+    "id": "",
+    "title": "",
+    "slug": "",
+    "description": "",
+    "category": "",
+    "location": "",
+    "year": "",
+    "thumbnail": "",
+    "images": [],
+    "featured": true
+}
+
+---
+
+# SEO
+
+Implement
+
+Metadata API
+
+OpenGraph
+
+Twitter Card
+
+robots.txt
+
+sitemap.xml
+
+Structured Data (JSON-LD)
+
+Canonical URL
+
+Dynamic Metadata
+
+---
+
+# Performance
+
+Target Lighthouse
+
+Performance >95
+
+Accessibility >95
+
+SEO >95
+
+Best Practice >95
+
+---
+
+# UI
+
+Modern
+
+Minimalist
+
+Professional
+
+Large spacing
+
+Rounded cards
+
+Dark mode
+
+Light mode
+
+Animations should be subtle.
+
+---
+
+# Code Quality
+
+Strict TypeScript
+
+ESLint
+
+Prettier
+
+Reusable Components
+
+Server Components whenever possible.
+
+Client Components only when required.
+
+---
+
+# Image Optimization
+
+Use Next Image
+
+Lazy Loading
+
+Responsive Sizes
+
+WebP support
+
+---
+
+# Accessibility
+
+Semantic HTML
+
+ARIA labels
+
+Keyboard Navigation
+
+Color Contrast
+
+Focus States
+
+---
+
+# Deliverables
+
+Generate
+
+- Full project structure
+- Complete source code
+- README.md
+- agent.md
+- roadmap.md
+- installation guide
+- deployment guide
+- contribution guide

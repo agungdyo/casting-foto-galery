@@ -1,0 +1,63 @@
+{
+  "name": "Casting Photo Gallery",
+  "tagline": "Capturing Moments, Creating Art",
+  "description": "Professional photography studio specializing in portrait, fashion, commercial, and editorial photography.",
+  "email": "hello@castingphoto.com",
+  "phone": "+1 (555) 123-4567",
+  "address": {
+    "street": "123 Creative Avenue",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10001",
+    "country": "USA"
+  },
+  "social": {
+    "instagram": "https://instagram.com/castingphoto",
+    "twitter": "https://twitter.com/castingphoto",
+    "facebook": "https://facebook.com/castingphoto",
+    "linkedin": "https://linkedin.com/company/castingphoto"
+  },
+  "stats": {
+    "projects": "500+",
+    "clients": "200+",
+    "years": "15+"
+  },
+  "services": [
+    {
+      "id": "portrait",
+      "title": "Portrait Photography",
+      "description": "Capturing authentic personalities and emotions through expert lighting and direction.",
+      "icon": "User"
+    },
+    {
+      "id": "fashion",
+      "title": "Fashion Photography",
+      "description": "High-end fashion imagery for brands, magazines, and campaigns worldwide.",
+      "icon": "Sparkles"
+    },
+    {
+      "id": "commercial",
+      "title": "Commercial Photography",
+      "description": "Professional product and brand photography that drives engagement and sales.",
+      "icon": "Briefcase"
+    },
+    {
+      "id": "editorial",
+      "title": "Editorial Photography",
+      "description": "Story-driven visual narratives for magazines, publications, and online platforms.",
+      "icon": "BookOpen"
+    },
+    {
+      "id": "event",
+      "title": "Event Photography",
+      "description": "Comprehensive coverage of corporate events, galas, and special occasions.",
+      "icon": "Calendar"
+    },
+    {
+      "id": "product",
+      "title": "Product Photography",
+      "description": "Stunning product imagery for e-commerce, catalogs, and advertising campaigns.",
+      "icon": "Camera"
+    }
+  ]
+}
