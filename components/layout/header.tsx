@@ -50,7 +50,9 @@ export function Header() {
               <Camera className="w-5 h-5 md:w-6 md:h-6 text-primary" />
             </div>
             <span className="font-bold text-lg md:text-xl tracking-tight">
-              Casting<span className="text-primary">Photo</span>
+              Agung
+              <span className="text-primary">Mei</span>
+              <span className="text-primary">Prasetyo</span>
             </span>
           </Link>
 

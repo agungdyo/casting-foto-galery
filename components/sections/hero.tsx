@@ -64,14 +64,14 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            Capturing{" "}
+            Siap{" "}
             <span className="bg-gradient-to-r from-primary via-purple-500 to-blue-500 bg-clip-text text-transparent">
-              Moments
+              Mati
             </span>
             <br />
-            Creating{" "}
+            Demi{" "}
             <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-primary bg-clip-text text-transparent">
-              Art
+              Peran
             </span>
           </motion.h1>
 
@@ -82,67 +82,12 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Professional photography studio specializing in portrait, fashion,
-            commercial, and editorial work. Transform your vision into stunning
-            visual stories.
+            Portofolio casting khusus peran aparat & tactical gunplay. Siap sedia buat adegan breaching, pegang senapan laras panjang, sampai rela jadi figuran polisi malang yang mati duluan di menit pertama. Camera rolling, lapor Komandan, siap action! 🫡💥
           </motion.p>
 
-          {/* CTA Buttons */}
-          <motion.div
-            className="flex flex-col sm:flex-row gap-4 justify-center pt-4"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-          >
-            <Button asChild size="lg" className="rounded-xl px-8">
-              <Link href="/#portfolio">
-                View Portfolio
-                <ArrowRight className="ml-2 w-4 h-4" />
-              </Link>
-            </Button>
-            <Button asChild variant="outline" size="lg" className="rounded-xl px-8">
-              <Link href="/#contact">Get in Touch</Link>
-            </Button>
-          </motion.div>
-
-          {/* Stats */}
-          <motion.div
-            className="grid grid-cols-3 gap-8 pt-12 max-w-lg mx-auto"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-          >
-            {[
-              { value: "500+", label: "Projects" },
-              { value: "200+", label: "Clients" },
-              { value: "15+", label: "Years" },
-            ].map((stat) => (
-              <div key={stat.label} className="text-center">
-                <div className="text-2xl sm:text-3xl font-bold text-primary">
-                  {stat.value}
-                </div>
-                <div className="text-sm text-muted-foreground">{stat.label}</div>
-              </div>
-            ))}
-          </motion.div>
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <Link
-          href="/#about"
-          className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
-          aria-label="Scroll to about section"
-        >
-          <span className="text-xs uppercase tracking-widest">Scroll</span>
-          <ChevronDown className="w-5 h-5" />
-        </Link>
-      </motion.div>
     </section>
   );
 }

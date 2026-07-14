@@ -52,8 +52,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Professional photography studio specializing in capturing moments
-              and creating art. Based in New York, serving clients worldwide.
+              Portofolio casting khusus peran aparat & tactical gunplay. Siap sedia buat adegan breaching, pegang senapan laras panjang, sampai rela jadi figuran polisi malang yang mati duluan di menit pertama. Camera rolling, lapor Komandan, siap action! 🫡💥
             </p>
           </div>
 
