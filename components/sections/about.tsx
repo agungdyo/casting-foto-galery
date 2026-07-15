@@ -95,7 +95,7 @@ export function About() {
                 Tactical Talent Profile
               </span>
               <h2 className="mt-2 text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight">
-                Siap Beraksi
+                Siap Beraksi {" "}
                 <span className="text-primary">Pemeran Pasukan Khusus & Aparat Keamanan</span>
               </h2>
             </motion.div>
