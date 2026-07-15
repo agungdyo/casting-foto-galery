@@ -1,3 +1,6 @@
+"use client";
+
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Camera } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
@@ -35,7 +38,11 @@ function FacebookIcon({ className }: { className?: string }) {
 }
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
+  const [currentYear, setCurrentYear] = useState<number>(new Date().getFullYear());
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
 
   return (
     <footer className="border-t bg-card/50">
