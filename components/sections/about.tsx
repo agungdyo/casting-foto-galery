@@ -9,27 +9,27 @@ import { Camera, Award, Users, Clock } from "lucide-react";
 const features = [
   {
     icon: Camera,
-    title: "Professional Equipment",
+    title: "1. Battle Dress Uniform (BDU)",
     description:
-      "State-of-the-art cameras, lighting, and post-processing tools for exceptional results.",
+      "Mengenakan setelan Baju BDU dan Celana BDU berwarna hitam pekat. Dirancang khusus untuk mobilitas tinggi, ketahanan di medan tugas, dan memberikan siluet tegap layaknya pasukan elit.",
   },
   {
     icon: Award,
-    title: "Award-Winning Work",
+    title: "2. Alas Kaki Taktis (Tactical Boots)",
     description:
-      "Recognized by industry peers for excellence in visual storytelling and creative direction.",
+      "Dilengkapi dengan sepatu Boots Delta yang kokoh. Memberikan kesan tangguh, siap tempur, dan memberikan pijakan yang aman untuk berbagai adegan aksi atau manuver fisik.",
   },
   {
     icon: Users,
-    title: "Client-Focused Approach",
+    title: "3. Sistem Sabuk & Senjata",
     description:
-      "We listen to your vision and collaborate closely to bring your ideas to life.",
+      "Menggunakan Ikat Pinggang Tactical (heavy-duty tactical belt) yang dipadukan dengan Holster Serpa di bagian paha/pinggang, memberikan tampilan penyimpanan senjata api (sidearm) yang realistis dan siap cabut.",
   },
   {
     icon: Clock,
-    title: "Timely Delivery",
+    title: "4. Aksesori Utilitas Tempur",
     description:
-      "Efficient workflows ensure your project is delivered on time without compromising quality.",
+      "Dilengkapi dengan Pouch Tactical yang terpasang pada sabuk untuk menyimpan utilitas tambahan atau simulasi amunisi. Dilengkapi juga dengan pelindung lutut (kneepads) untuk keamanan ekstra saat melakoni adegan berlutut atau merayap.",
   },
 ];
 
@@ -66,7 +66,7 @@ export function About() {
             </div>
 
             {/* Floating card */}
-            <motion.div
+            {/* <motion.div
               className="absolute -bottom-6 -right-6 p-6 bg-card rounded-2xl shadow-xl border"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={isInView ? { opacity: 1, scale: 1 } : {}}
@@ -81,7 +81,7 @@ export function About() {
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </div>
               </div>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
 
           {/* Content section */}
@@ -92,11 +92,11 @@ export function About() {
               transition={{ duration: 0.5 }}
             >
               <span className="text-primary font-medium text-sm uppercase tracking-wider">
-                About Us
+                Tactical Talent Profile
               </span>
               <h2 className="mt-2 text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight">
-                We Tell Stories Through{" "}
-                <span className="text-primary">Stunning Images</span>
+                Siap Beraksi
+                <span className="text-primary">Pemeran Pasukan Khusus & Aparat Keamanan</span>
               </h2>
             </motion.div>
 
@@ -106,10 +106,7 @@ export function About() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
-              Casting Photo Gallery is a premier photography studio founded in New
-              York. With over 15 years of experience, we have established
-              ourselves as industry leaders in portrait, fashion, commercial, and
-              editorial photography.
+              Saya Agung Mei Prasetyo memiliki postur dan perawakan yang sangat ideal untuk memerankan karakter aparat penegak hukum, prajurit militer, atau tactical crew. Dengan fisik yang proporsional dan ekspresi yang tegas, ia siap membawakan peran-peran aksi dan kombat dengan meyakinkan di depan kamera.
             </motion.p>
 
             <motion.p
@@ -118,9 +115,7 @@ export function About() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              Our team of passionate photographers combines technical expertise
-              with creative vision to capture moments that resonate. We believe
-              every image should tell a story and evoke emotion.
+             Untuk menunjang totalitas peran dan otentisitas visual, Agung didukung dengan set perlengkapan dan pakaian tactical standar operasi. Berikut adalah detail spesifikasi outfit yang digunakan untuk kebutuhan produksi:
             </motion.p>
 
             {/* Features grid */}
