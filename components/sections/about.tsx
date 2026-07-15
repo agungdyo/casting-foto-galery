@@ -115,7 +115,7 @@ export function About() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-             Untuk menunjang totalitas peran dan otentisitas visual, Agung didukung dengan set perlengkapan dan pakaian tactical standar operasi. Berikut adalah detail spesifikasi outfit yang digunakan untuk kebutuhan produksi:
+             Untuk menunjang totalitas peran dan otentisitas visual, Saya didukung dengan set perlengkapan dan pakaian tactical standar operasi. Berikut adalah detail spesifikasi outfit yang digunakan untuk kebutuhan produksi:
             </motion.p>
 
             {/* Features grid */}
